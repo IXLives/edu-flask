@@ -2,14 +2,48 @@
 <html>
 
 <head>
+    <link rel='stylesheet' href="{{url_for('static', filename='borders.css')}}">
     <meta charset="utf-8">
     <title>Kitten Bizness TNR</title>
 </head>
 
 <body>
-    <h1>
+    <h1 id='title'>
         <center>Kitten Bizness Trap-Neuter-Return🐾</center>
     </h1>
+    <table>
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Bio</th>
+        </tr>
+        <tr>
+            <td><img height="100" src="{{url_for('static', filename='1.jpg')}}"></td>
+            <td>Stuart</td>
+            <td>5 weeks</td>
+            <td>I am a tiny kitten rescued by the good people at Kitten Bizness. I love squeaky toys and cuddles.
+            </td>
+        </tr>
+        <tr>
+            <td><img height="100" src="{{url_for('static', filename='2.jpg')}}"></td>
+            <td>Karev</td>
+            <td>8 months</td>
+            <td>I am a handsome gentle-cat. I like to dressup in bow ties.</td>
+        </tr>
+        <tr>
+            <td><img height="100" src="{{url_for('static', filename='3.jpg')}}"></td>
+            <td>Bruce</td>
+            <td>1 year</td>
+            <td>I love barking. But, I love my friends more.</td>
+        </tr>
+        <tr>
+            <td><img height="100" src="{{url_for('static', filename='4.jpg')}}"></td>
+            <td>Wayne</td>
+            <td>5 years</td>
+            <td>Probably napping.</td>
+        </tr>
+    </table>
 </body>
 
 </html>
