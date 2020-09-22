@@ -1,20 +1,14 @@
-<!DOCTYPE html>
-<html>
+{% extends "base.html" %}
 
-<head>
-    <link rel='stylesheet' href="{{url_for('static', filename='borders.css')}}">
-    <meta charset="utf-8">
-    <title>Kitten Bizness TNR</title>
-</head>
+{% block title %}
+About
+{% endblock %}
 
-<body>
-    <h2>About Us:</h2>
-    <p>We are a non-profit organization working as a stray cat rescue. We aim to help connect families with the perfect
-        cat
-        for them! The animals you find here are rescued and rehabilitated animals. Because if we do not help them, who
-        will?
-    </p>
-</body>
-
-
-</html>
+{% block content %}
+<h2>About Us:</h2>
+<p>We are a non-profit organization working as a stray cat rescue. We aim to help connect families with the perfect
+    cat
+    for them! The animals you find here are rescued and rehabilitated animals. Because if we do not help them, who
+    will?
+</p>
+{% endblock %}
