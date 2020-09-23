@@ -1,3 +1,8 @@
-Working my way through Python and Flask on Educative.
+Welcome to the website for Kitten Bizness Porch Cat Rescue!
 
-Let's see where we go
+## Tech Stack
+Python
+Flask
+
+## Contribute
+By PR
